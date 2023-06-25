@@ -6,7 +6,7 @@ Library for controlling TA6586
 ```cpp
 TAControl(byte in1, byte in2);
 		
-void write(int value); 
+void write(int value);    //from -255 to 255
 void lock();
 		
 byte getIn1();
