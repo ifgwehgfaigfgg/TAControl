@@ -1,0 +1,10 @@
+TAControl	KEYWORD1
+
+write	KEYWORD2
+classicWrite	KEYWORD2
+stop	KEYWORD2
+
+getIn1	KEYWORD2
+getIn2	KEYWORD2
+setIn1	KEYWORD2
+setIn2	KEYWORD2
