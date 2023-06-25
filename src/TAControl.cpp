@@ -20,7 +20,8 @@ void TAControl::write(int value){
 }
 
 void TAControl::lock(){
-	classicWrite(255, true);
+	digitalWrite(_in1, HIGH);
+	digitalWrite(_in2, HIGH);
 }
 
 byte TAControl::getIn1(){return _in1;}
